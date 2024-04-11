@@ -8,8 +8,15 @@ const Instructor = ({ instructorData }) => {
         <div className={style.bar2}></div>
         <div className={style.content}>
           <div className={style.imageContainer}>
+            {console.log(
+              `../../../assets/courses/${
+                instructorData.image ? instructorData.image : "profilePic.png"
+              }`
+            )}
             <img
-              src={require(`../../../assets/courses/${instructorData.image}`)}
+              src={require(`../../../assets/courses/${
+                instructorData.image ? instructorData.image : "profilePic.png"
+              }`)}
               alt=""
             />
           </div>
