@@ -18,7 +18,7 @@ export const Embedded = {
   ],
   actualPrice: "75000",
 
-  discountedPrice: "1800",
+  discountedPrice: "75000",
   image: "embeddedCourse2.webp",
   duration: {
     durationMetric: "months",
@@ -30,7 +30,7 @@ export const Embedded = {
   language: "English",
   instructor: {
     name: "Ravikanth Varigonda",
-    // image: "profilePic.png",
+    image: "dummyImage.png",
     description: [
       "Having 23 years experience on Windows, Linux and Android, FreeRTOS, Zephyr OS Design , Development and Architecting BSP, HAL, Device Drivers,Middleware, Stack Development, MQTT, CoaP, IoT , STM32,ESP32, Silicon Labs, Nordic controllers",
     ],

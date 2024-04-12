@@ -14,9 +14,7 @@ const Instructor = ({ instructorData }) => {
               }`
             )}
             <img
-              src={require(`../../../assets/courses/${
-                instructorData.image ? instructorData.image : "profilePic.png"
-              }`)}
+              src={require(`../../../assets/courses/profilePic.png`)}
               alt=""
             />
           </div>

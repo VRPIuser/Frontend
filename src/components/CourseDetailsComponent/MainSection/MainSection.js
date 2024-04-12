@@ -25,11 +25,7 @@ const MainSection = ({ content }) => {
         </p>
         <div className={style.instructorDetails}>
           <img
-            src={require(`../../../assets/courses/${
-              content.instructor.image
-                ? content.instructor.image
-                : "profilePic.png"
-            }`)}
+            src={require(`../../../assets/courses/${content.instructor.image}`)}
             alt=""
           />
           <span className={style.instructorName}>

@@ -23,14 +23,14 @@ export const AI = {
     total: 12,
   },
   actualPrice: "65000",
-  discountedPrice: "1800",
+  discountedPrice: "65000",
   image: "aiCourse2.webp",
   buttonContent: "Enroll Now",
   language: "English",
 
   instructor: {
     name: "Ravikanth Varigonda",
-    // image: "profilePic.png",
+    image: "dummyImage.png",
     description: [
       "Having 23 years experience on Windows, Linux and Android, FreeRTOS, Zephyr OS Design , Development and Architecting BSP, HAL, Device Drivers,Middleware, Stack Development, MQTT, CoaP, IoT , STM32,ESP32, Silicon Labs, Nordic controllers",
     ],
